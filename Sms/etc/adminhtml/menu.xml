@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Nitesh_Sms" title="Sms" module="Nitesh_Sms" sortOrder="20" dependsOnModule="Nitesh_Sms" resource="Nitesh_Sms::sms"/>
+        <add id="Nitesh_Sms::index" title="Sms" module="Nitesh_Sms" action="sms/test/index"  parent="Nitesh_Sms" sortOrder="20" dependsOnModule="Nitesh_Sms" resource="Nitesh_Sms::sms"/>
+    </menu>
+</config>
