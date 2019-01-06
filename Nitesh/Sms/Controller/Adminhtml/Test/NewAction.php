@@ -15,7 +15,8 @@ class NewAction extends \Magento\Backend\App\Action
     {
         $this->_view->loadLayout();
         $this->_view->renderLayout();
-
+//        var_dump($this->getRequest()->getParam('sms'));
+//        die();
         $contactDatas = $this->getRequest()->getParam('sms');
 
         if(is_array($contactDatas)) {

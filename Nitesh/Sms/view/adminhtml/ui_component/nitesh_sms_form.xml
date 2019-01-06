@@ -33,7 +33,7 @@
     <fieldset name="sms">
         <argument name="data" xsi:type="array">
             <item name="config" xsi:type="array">
-                <item name="label" xsi:type="string" translate="true">Save</item>
+                <item name="label" xsi:type="string" translate="true"> Sms Configuration </item>
             </item>
         </argument>
 

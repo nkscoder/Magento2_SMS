@@ -14,13 +14,13 @@ class Edit extends \Magento\Backend\App\Action
 
 
         $contactDatas = $this->getRequest()->getParam('sms');
-
-
+//        var_dump($contactDatas);
+//        die();
         if(is_array($contactDatas)) {
             $resource = $this->_objectManager->create('\Magento\Framework\App\ResourceConnection');
             $connection = $resource->getConnection(\Magento\Framework\App\ResourceConnection::DEFAULT_CONNECTION);
 
-            $recipe = $this->_objectManager->create(Sms::class);
+            $sms = $this->_objectManager->create(Sms::class);
 
             try {
       
