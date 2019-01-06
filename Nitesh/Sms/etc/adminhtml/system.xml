@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<system>
+<!--    <item name="buttons" xsi:type="array">-->
+<!--    <item name="back" xsi:type="string">Dac\Recipes\Block\Adminhtml\Recipe\Edit\BackButton</item>-->
+<!--    <item name="delete" xsi:type="string">Dac\Recipes\Block\Adminhtml\Recipe\Edit\DeleteButton</item>-->
+<!--    <item name="reset" xsi:type="string">Dac\Recipes\Block\Adminhtml\Recipe\Edit\ResetButton</item>-->
+<!--    <item name="save" xsi:type="string">Dac\Recipes\Block\Adminhtml\Recipe\Edit\SaveButton</item>-->
+<!--</item>-->
+</system>
+</config>
