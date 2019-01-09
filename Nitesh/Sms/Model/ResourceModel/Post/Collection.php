@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: nitesh
+ * nkscoder@gmail.com
+ * Date: 01/01/19
+ * Time: 4:59 PM
+ */
 namespace Nitesh\Sms\Model\ResourceModel\Post;
 
 use \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
