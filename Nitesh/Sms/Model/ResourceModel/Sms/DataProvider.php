@@ -1,5 +1,5 @@
 <?php
-namespace Nitesh\Sms\Model\Recipe;
+namespace Nitesh\Sms\Model\Sms;
 use Nitesh\Sms\Model\ResourceModel\Post\CollectionFactory;
 class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 {
@@ -34,7 +34,7 @@ class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
         /** @var Customer $customer */
         foreach ($items as $contact) {
             // notre fieldset s'apelle "contact" d'ou ce tableau pour que magento puisse retrouver ses datas :
-            $this->loadedData[$contact->getId()]['recipe'] = $contact->getData();
+            $this->loadedData[$contact->getId()]['sms'] = $contact->getData();
         }
 
 

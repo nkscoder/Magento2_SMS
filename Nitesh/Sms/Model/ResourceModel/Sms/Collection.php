@@ -1,6 +1,6 @@
 <?php
 
-namespace Nitesh\Sms\Model\ResourceModel\Recipe;
+namespace Nitesh\Sms\Model\ResourceModel\Sms;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 

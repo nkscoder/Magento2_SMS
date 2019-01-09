@@ -80,8 +80,8 @@ class InstallSchema implements InstallSchemaInterface
                     null,
                     [
 
-                        'nullable' => false,
-                        'default' => 'Active'
+                        'nullable' => false
+                        
 
                     ],
                     'Sms Status'

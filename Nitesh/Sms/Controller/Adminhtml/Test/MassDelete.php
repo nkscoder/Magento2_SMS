@@ -1,7 +1,7 @@
 <?php
 namespace Nitesh\Sms\Controller\Adminhtml\Test;
 use Magento\Backend\App\Action;
-use Nitesh\Sms\Model\Recipe;
+use Nitesh\Sms\Model\Sms;
 
 class MassDelete extends \Magento\Backend\App\Action
 {

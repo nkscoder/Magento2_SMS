@@ -14,7 +14,7 @@
         <item name="buttons" xsi:type="array">
             <item name="add" xsi:type="array">
                 <item name="name" xsi:type="string">add</item>
-                <item name="label" xsi:type="string" translate="true">Add a new Recipes</item>
+                <item name="label" xsi:type="string" translate="true">Add Config</item>
                 <item name="class" xsi:type="string">primary</item>
                 <item name="url" xsi:type="string">*/*/newAction</item>
             </item>
@@ -138,20 +138,7 @@
     </columns>
     
     
-        <!--<paging name="listing_paging">-->
-        <!--<argument name="data" xsi:type="array">-->
-            <!--<item name="config" xsi:type="array">-->
-                <!--<item name="storageConfig" xsi:type="array">-->
-                    <!--&lt;!&ndash; we put here the path to the bookmarks element &ndash;&gt;-->
-                    <!--<item name="provider" xsi:type="string">recipes_test_listing.recipes_test_listing.listing_top.bookmarks</item>-->
-                    <!--<item name="namespace" xsi:type="string">current.paging</item>-->
-                <!--</item>-->
-                <!--&lt;!&ndash; we put here the path to the element pfay_contact_ids of contacts_test_columns  element &ndash;&gt;-->
-                <!--<item name="selectProvider" xsi:type="string">recipes_test_listing.recipes_test_listing.recipes_test_columns.recipes_id</item>-->
-                <!--<item name="displayArea" xsi:type="string">bottom</item>-->
-            <!--</item>-->
-        <!--</argument>-->
-    <!--</paging>-->
+   
 
 
 </listing>
@@ -159,140 +146,4 @@
 
 
 
-
-
-        <!--&lt;!&ndash;  new section start &ndash;&gt;-->
-
-<!--<container name="listing_top">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--<item name="template" xsi:type="string">ui/grid/toolbar</item>-->
-    <!--</item>-->
-<!--</argument>-->
-
-<!--&lt;!&ndash; we put the others elements here &ndash;&gt;-->
-
-<!--</container>-->
-
-
-<!--<container name="columns_controls">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--<item name="columnsData" xsi:type="array">-->
-            <!--<item name="provider" xsi:type="string">recipes_test_listing.recipes_test_listing.recipes_test_columns</item>-->
-        <!--</item>-->
-        <!--<item name="component" xsi:type="string">Magento_Ui/js/grid/controls/columns</item>-->
-        <!--<item name="displayArea" xsi:type="string">dataGridActions</item>-->
-    <!--</item>-->
-<!--</argument>-->
-<!--</container>-->
-
-
-<!--<bookmark name="bookmarks">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--<item name="component" xsi:type="string">Magento_Ui/js/grid/controls/bookmarks/bookmarks</item>-->
-        <!--<item name="displayArea" xsi:type="string">dataGridActions</item>-->
-        <!--<item name="storageConfig" xsi:type="array">-->
-            <!--<item name="saveUrl" xsi:type="url" path="*/*/save"/>-->
-            <!--<item name="deleteUrl" xsi:type="url" path="*/*/delete"/>-->
-            <!--<item name="namespace" xsi:type="string">contact_test_listing</item>-->
-        <!--</item>-->
-    <!--</item>-->
-<!--</argument>-->
-<!--</bookmark>-->
-
-
-<!--<paging name="listing_paging">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--<item name="storageConfig" xsi:type="array">-->
-            <!--&lt;!&ndash; we put here the path to the bookmarks element &ndash;&gt;-->
-            <!--<item name="provider" xsi:type="string">recipes_test_listing.recipes_test_listing.listing_top.bookmarks</item>-->
-            <!--<item name="namespace" xsi:type="string">current.paging</item>-->
-        <!--</item>-->
-        <!--&lt;!&ndash; we put here the path to the element pfay_contact_ids of contacts_test_columns  element &ndash;&gt;-->
-        <!--<item name="selectProvider" xsi:type="string">recipes_test_listing.recipes_test_listing.recipes_test_columns.recipes_id</item>-->
-        <!--<item name="displayArea" xsi:type="string">bottom</item>-->
-    <!--</item>-->
-<!--</argument>-->
-<!--</paging>-->
-
-
-<!--<filters name="listing_filters">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--<item name="storageConfig" xsi:type="array">-->
-            <!--<item name="provider" xsi:type="string">recipes_test_listing.recipes_test_listing.listing_top.bookmarks</item>-->
-            <!--<item name="namespace" xsi:type="string">curren.filters</item>-->
-        <!--</item>-->
-        <!--<item name="childDefaults" xsi:type="array">-->
-            <!--<item name="provider" xsi:type="string">recipes_test_listing.recipes_test_listing.listing_top.listing_filters</item>-->
-            <!--<item name="imports" xsi:type="array">-->
-                <!--<item name="visible" xsi:type="string">recipes_test_listing.recipes_test_listing.listing_top.bookmarks:current.columns.${ $.index }.visible</item>-->
-            <!--</item>-->
-        <!--</item>-->
-    <!--</item>-->
-<!--</argument>-->
-<!--</filters>-->
-
-<!--<item name="filter" xsi:type="string">text</item>-->
-
-
-<!--<item name="filter" xsi:type="string">textRange</item>-->
-
-
-
-<!--<selectionsColumn name="ids">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--&lt;!&ndash; define which field will be used as ID &ndash;&gt;-->
-        <!--<item name="indexField" xsi:type="string">recipes_id</item>-->
-    <!--</item>-->
-<!--</argument>-->
-<!--</selectionsColumn>-->
-
-
-
-<!--<massaction name="listing_massaction">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--&lt;!&ndash; we put here the path to the element pfay_contact_ids of contacts_test_columns  element &ndash;&gt;-->
-        <!--<item name="selectProvider" xsi:type="string">recipes_test_listing.recipes_test_listing.recipes_test_columns.ids</item>-->
-        <!--<item name="displayArea" xsi:type="string">bottom</item>-->
-        <!--<item name="indexField" xsi:type="string">recipes_id</item>-->
-    <!--</item>-->
-<!--</argument>-->
-<!--<action name="delete">-->
-    <!--<argument name="data" xsi:type="array">-->
-        <!--<item name="config" xsi:type="array">-->
-            <!--<item name="type" xsi:type="string">delete</item>-->
-            <!--<item name="label" xsi:type="string" translate="true">Delete Selected</item>-->
-            <!--<item name="url" xsi:type="url" path="*/*/massDelete"/>-->
-            <!--<item name="confirm" xsi:type="array">-->
-                <!--<item name="title" xsi:type="string" translate="true">Delete all selected recipes</item>-->
-                <!--<item name="message" xsi:type="string" translate="true">Do you want to delete all the selected recipes?</item>-->
-            <!--</item>-->
-        <!--</item>-->
-    <!--</argument>-->
-<!--</action>-->
-<!--</massaction>-->
-
-
-
-        <!--&lt;!&ndash; Filter Search &ndash;&gt;-->
-<!--<filterSearch name="fulltext">-->
-<!--<argument name="data" xsi:type="array">-->
-    <!--<item name="config" xsi:type="array">-->
-        <!--<item name="provider" xsi:type="string">_test_listing.contacts_test_listing_data_source</item>-->
-        <!--<item name="chipsProvider" xsi:type="string">contacts_test_listing.contacts_test_listing.listing_top.listing_filters_chips</item>-->
-        <!--<item name="storageConfig" xsi:type="array">-->
-            <!--<item name="provider" xsi:type="string">contacts_test_listing.contacts_test_listing.listing_top.bookmarks</item>-->
-            <!--<item name="namespace" xsi:type="string">current.search</item>-->
-        <!--</item>-->
-    <!--</item>-->
-<!--</argument>-->
-<!--</filterSearch>-->
-
-        <!--&lt;!&ndash; end section &ndash;&gt;-->
 
