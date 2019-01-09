@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: nitesh
+ * nkscoder@gmail.com
+ * Date: 01/01/19
+ * Time: 4:59 PM
+ */
 namespace Nitesh\Sms\Model\Sms;
 use Nitesh\Sms\Model\ResourceModel\Post\CollectionFactory;
 class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
