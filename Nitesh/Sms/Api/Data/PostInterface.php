@@ -17,12 +17,6 @@ interface PostInterface
 
 
 
-
-
-
-
-
-
     /**#@-*/
    
     public function getId();
