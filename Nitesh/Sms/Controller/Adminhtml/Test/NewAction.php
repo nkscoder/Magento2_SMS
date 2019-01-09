@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: nitesh
+ * nkscoder@gmail.com
+ * Date: 01/01/19
+ * Time: 4:59 PM
+ */
 namespace Nitesh\Sms\Controller\Adminhtml\Test;
 use Magento\Backend\App\Action;
 use Nitesh\Sms\Model\Sms as Sms;
@@ -15,8 +22,7 @@ class NewAction extends \Magento\Backend\App\Action
     {
         $this->_view->loadLayout();
         $this->_view->renderLayout();
-//        var_dump($this->getRequest()->getParam('sms'));
-//        die();
+
         $contactDatas = $this->getRequest()->getParam('sms');
 
         if(is_array($contactDatas)) {
